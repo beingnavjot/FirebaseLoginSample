@@ -1,0 +1,132 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">FirebaseOtpLogin</string>
+
+    <string name="oops_no_internet_connection">Oops! No Internet Connection</string>
+    <string name="something_is_not_right_here">Something is not right here</string>
+    <string name="please_enter_your_name">Please enter username.</string>
+    <string name="please_select_dob">Please select DOB.</string>
+    <string name="please_enter_your_email_address">Please enter your email-address.</string>
+    <string name="please_enter_valid_email_address">Please enter valid email-address.</string>
+    <string name="please_enter_your_password">Please enter your password.</string>
+    <string name="please_enter_your_phone_no">Please enter your phone no.</string>
+    <string name="please_enter_bio">Please enter your Bio.</string>
+    <string name="please_enter_valid_phone_no">Please enter valid phone no.</string>
+    <string name="please_accept_terms">Please accept Terms &amp; Conditions</string>
+
+    <string name="please_enter_otp">Please Enter Otp!</string>
+    <string name="please_enter_6digit_otp">Please Enter 6 Digit Otp!</string>
+    <string name="combine_two_strings" translatable="false">%1$s | %2$s</string>
+    <string name="duration_format" translatable="false"><xliff:g id="hours">%1$s</xliff:g> <xliff:g id="minutes">%2$s</xliff:g></string>
+    <string name="durationformatshort" translatable="false"><xliff:g id="format">%2$d:%3$02d</xliff:g></string>
+    <string name="durationformatlong" translatable="false"><xliff:g id="format">%1$d:%2$02d:%3$02d</xliff:g></string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="sign_up_in_second">Sign up in Second</string>
+    <string name="select_and_book">Select and Book</string>
+    <string name="video_call">Video Consultation call </string>
+    <string name="description">Now, right from your phone, you can\nsend anonymous gifts of cash to\npeople!"</string>
+    <string name="let_s_sign_you_in">Let\'s Sign you in…</string>
+    <string name="welcome_back_you_ve_been_missed">Welcome back, you\'ve been missed !</string>
+    <string name="last_name">Last name</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="first_name">First name</string>
+    <string name="email_id">Email id</string>
+    <string name="male">Male</string>
+    <string name="already_have_an_account">Already have an account?<font color='#0027FF'> Sign in</font> </string>
+    <string name="let_s_connect_you_with_our_expert">Let’s connect you with\nOur Expert</string>
+    <string name="show_results">Show results</string>
+    <string name="upcoming_booking">Upcoming booking</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="legal_expert">Legal Expert</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="continue_to_book_appointment">Continue to Book Appointment</string>
+    <string name="book_an_appointment">Book an\nAppointment</string>
+    <string name="select_appointment_type">Select Appointment type</string>
+    <string name="select_call_duration_time">Select call Duration time</string>
+    <string name="booking_for_someone">Booking for someone ?</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email_id">Your email Id</string>
+    <string name="appointment_details">Appointment details</string>
+    <string name="wallet">Wallet</string>
+    <string name="saved_cards">Saved cards</string>
+    <string name="appointment_detail">Appointment\nDetails</string>
+    <string name="cancel">Cancel</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="available_wallet_time">Available Wallet time</string>
+    <string name="recharge">Recharge</string>
+    <string name="registered_email_id">Registered Email Id</string>
+    <string name="save_changes">Save changes</string>
+    <string name="fav_expert">Fav Expert</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_us">Contact us</string>
+    <string name="rate_us">Rate us</string>
+    <string name="terms_of_engagement">Terms of Engagement</string>
+    <string name="feedback">Feedback</string>
+    <string name="schedule_an_appointment">Schedule an\nAppointment</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+    <string name="select_appointment_mode">Select Appointment mode</string>
+    <string name="change_profile_pic">Change Profile Pic</string>
+    <string name="backclick">BackClick</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="expert_chat_support">Expert\nChat Support</string>
+
+
+    <string-array name="employee_role_group">
+        <item>Jack</item>
+        <item>John</item>
+        <item>ABC</item>
+        <item>ABC</item>
+        <item>ABC</item>
+        <item>AB</item>
+        <item>ABC</item>
+        <item>ABC</item>
+    </string-array>
+
+    <string-array name="select_appointment_mode">
+        <item>Video Call</item>
+        <item>Call</item>
+        <item>Chat Support</item>
+    </string-array>
+
+<!--    ExpertClientChatScreen Strings-->
+    <string name="business_finance_expert"><![CDATA[Business & Finance Expert]]></string>
+    <string name="back_button">Back Button</string>
+    <string name="chat_support">Chat Support</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_email_id">Enter Email Id</string>
+    <string name="dd_mm_yyyy">DD-MM-YYYY</string>
+    <string name="bio">Bio.......</string>
+
+
+
+    <string name="resend">Didn\'t recieve the OTP ?<font color='#095D52'> Resend</font>  </string>
+
+
+    <string name="facebook_app_id">752768132560734</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">2579461d58a7433d9181a6b658f06cd5</string>
+
+
+
+
+
+    <!-- TODO: Twilio module text -->
+    <string name="room_status">status</string>
+    <string name="permissions_needed">Camera and Microphone permissions needed. Please allow in App Settings for additional functionality.</string>
+    <string name="error_retrieving_access_token">Error retrieving token</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings">Settings</string>
+    <string name="codec_title">Set your preferred audio and video codec. Not all codecs are supported with Group rooms. The media server will fallback to OPUS or VP8 if a preferred codec is not supported.</string>
+    <string name="pref_title_audio_codec">Audio Codec</string>
+    <string name="pref_title_video_codec">Video Codec</string>
+    <string name="sender_bandwidth_constraints">Set sender bandwidth constraints. Zero represents the WebRTC default value which varies by codec.</string>
+    <string name="max_audio_bitrate">Max Audio Bitrate (bits per second)</string>
+    <string name="max_video_bitrate">Max Video Bitrate (bits per second)</string>
+    <string name="vp8_simulcast">VP8 Simulcast</string>
+    <string name="audio_device">Audio Device</string>
+    <string name="room_screen_select_device">Select Device</string>
+    <string name="video_is_paused">Video is Paused</string>
+    <string name="join_call">Join Call</string>
+
+</resources>

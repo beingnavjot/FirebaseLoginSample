@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/menu_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/account_settings"
+            android:icon="@drawable/ic_linear_profile_1"
+            android:title="@string/appointment_details"
+            />
+    </group>
+    <group
+        android:id="@+id/menu_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/wallet"
+            android:icon="@drawable/ic_wallet_2"
+            android:title="@string/wallet" />
+    </group>
+
+    <group
+        android:id="@+id/menu_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/fav_expert"
+            android:icon="@drawable/ic_message_text_3"
+            android:title="@string/fav_expert" />
+
+    </group>
+    <group
+        android:id="@+id/menu_4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/chat_support"
+            android:icon="@drawable/ic_chat_support"
+            android:title="@string/chat_support" />
+
+    </group>
+    <group
+        android:id="@+id/menu_5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/privacy_policy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="@string/privacy_policy" />
+    </group>
+    <group
+        android:id="@+id/menu_6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_call_5"
+            android:title="@string/contact_us" />
+    </group>
+
+    <group
+        android:id="@+id/menu_7"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/rate_us"
+            android:icon="@drawable/ic_rate_us_star"
+            android:title="@string/rate_us" />
+    </group>
+    <group
+        android:id="@+id/menu_9"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/terms_of_engagement"
+            android:icon="@drawable/ic_term"
+            android:title="@string/terms_of_engagement" />
+    </group>
+ <group
+        android:id="@+id/menu_10"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_like"
+            android:title="@string/feedback" />
+    </group>
+
+
+</menu>
