@@ -58,7 +58,6 @@ class OtpActivity :
         binding.lifecycleOwner = this
         supportActionBar!!.hide()
 
-
     }
 
 
