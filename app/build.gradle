@@ -12,6 +12,7 @@ android {
 
     compileSdk 31
 
+
     defaultConfig {
         applicationId "com.firebaseotplogin"
         minSdk 21
@@ -40,6 +41,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+
 
 }
 
