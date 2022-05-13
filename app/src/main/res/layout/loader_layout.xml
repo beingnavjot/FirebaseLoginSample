@@ -18,13 +18,13 @@
         app:dd_horizontalSpacing="@dimen/_3sdp"
         app:dd_numDots="3"
         app:dd_scaleMultiplier="1.5" />-->
-    <com.github.ybq.android.spinkit.SpinKitView
+<!--    <com.github.ybq.android.spinkit.SpinKitView
         style="@style/SpinKitView.MultiplePulseRing"
         android:layout_width="@dimen/_60sdp"
         android:layout_height="@dimen/_60sdp"
         android:layout_gravity="center"
         android:padding="@dimen/_10sdp"
         android:id="@+id/progress_loader"
-        app:SpinKit_Color="@color/black" />
+        app:SpinKit_Color="@color/black" />-->
 
 </RelativeLayout>

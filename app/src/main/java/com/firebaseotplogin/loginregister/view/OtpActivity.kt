@@ -57,7 +57,6 @@ class OtpActivity :
         binding.callback = this
         binding.lifecycleOwner = this
         supportActionBar!!.hide()
-
     }
 
 
@@ -65,8 +64,6 @@ class OtpActivity :
 
         auth = FirebaseAuth.getInstance()
         db = FirebaseFirestore.getInstance();
-
-
 
 
         callbacks = object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
@@ -161,11 +158,7 @@ class OtpActivity :
                 })
 
         return response
-
-
     }
-
-
 }
 
 

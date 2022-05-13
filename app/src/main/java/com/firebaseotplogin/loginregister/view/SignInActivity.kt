@@ -56,8 +56,6 @@ class SignInActivity :
         binding.callback = this
         binding.lifecycleOwner = this
         supportActionBar!!.hide()
-
-
     }
 
     override fun injectDaggerComponent() {
