@@ -5,6 +5,7 @@ plugins {
     id 'com.google.gms.google-services'
     id 'kotlin-android-extensions'
     id 'maven-publish'
+
 }
 
 android {
@@ -124,6 +125,7 @@ dependencies {
     implementation 'androidx.browser:browser:1.4.0'
     implementation 'com.google.firebase:firebase-analytics-ktx'
 
+    implementation 'com.github.jitpack:android-example:3.0'
 
    /*  //todo Snackbar toast
     implementation 'com.github.johnpersano:supertoasts:2.0'
