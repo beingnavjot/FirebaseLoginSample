@@ -148,7 +148,7 @@ afterEvaluate {
                 //from components.release
                 groupId = 'com.github.beingnavjot'
                 artifactId = 'FirebaseLoginSample'
-                version = '1.6'
+                version = '1.7'
             }
         }
     }
