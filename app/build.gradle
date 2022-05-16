@@ -12,7 +12,6 @@ android {
 
     compileSdk 31
 
-
     defaultConfig {
         applicationId "com.firebaseotplogin"
         minSdk 21
