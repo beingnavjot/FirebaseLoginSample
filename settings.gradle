@@ -1,2 +1,3 @@
-rootProject.name = "SampleLibraryProject"
+rootProject.name = "FirebaseLoginSample"
+include ':app'
 include ':app'

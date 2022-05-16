@@ -153,18 +153,3 @@ afterEvaluate {
         }
     }
 }
-
-/*
-project.afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                groupId = 'com.github.beingnavjot'
-                artifactId = 'FirebaseLoginSample'
-                version = '1.6'
-            }
-        }
-    }
-}
-*/
-

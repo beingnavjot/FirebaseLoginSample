@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SampleLibraryProject.iml" filepath="$PROJECT_DIR$/.idea/modules/SampleLibraryProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Library/SampleLibraryProject.Library.iml" filepath="$PROJECT_DIR$/.idea/modules/Library/SampleLibraryProject.Library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SampleLibraryProject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SampleLibraryProject.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FirebaseLoginSample.iml" filepath="$PROJECT_DIR$/.idea/modules/FirebaseLoginSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FirebaseLoginSample.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FirebaseLoginSample.app.iml" />
     </modules>
   </component>
 </project>
