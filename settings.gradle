@@ -1,2 +1,3 @@
 rootProject.name = "SampleLibraryProject"
 include ':app'
+include ':Library'

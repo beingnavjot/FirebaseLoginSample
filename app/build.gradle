@@ -132,6 +132,7 @@ dependencies {
    /*  //todo Snackbar toast
     implementation 'com.github.johnpersano:supertoasts:2.0'
    */
+    implementation 'com.github.beingnavjot:FirebaseLoginSample:1.5'
 
 
 }
