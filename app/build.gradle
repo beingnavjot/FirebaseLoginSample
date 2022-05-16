@@ -66,13 +66,13 @@ dependencies {
     //todo dot indicator
     implementation "com.tbuonomo:dotsindicator:$dotIndicatorVersion"
     //todo pinbox
-    implementation "com.github.mukeshsolanki:android-otpview-pinview:$otpPinViewVersion"
+  //  implementation "com.github.mukeshsolanki:android-otpview-pinview:$otpPinViewVersion"
     //todo country_code_pick
     implementation "com.hbb20:ccp:$countryCodePickerVersion"
     //todo Circle Image
-    implementation "de.hdodenhof:circleimageview:$circleImageViewVersion"
+ //   implementation "de.hdodenhof:circleimageview:$circleImageViewVersion"
     //todo Recyclerview
-    implementation "androidx.recyclerview:recyclerview:$recyclerviewVersion"
+  //  implementation "androidx.recyclerview:recyclerview:$recyclerviewVersion"
     //todo CardView
     implementation "androidx.cardview:cardview:$cardviewVersion"
     //todo Retrofit
@@ -81,7 +81,7 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:$retrofitInterceptorVersion"
     implementation "com.google.code.gson:gson:$gsonVersion"
     implementation "com.squareup.retrofit2:adapter-rxjava2:$project.retrofitVersion"
-    implementation 'com.amitshekhar.android:rx2-android-networking:1.0.2'
+  //  implementation 'com.amitshekhar.android:rx2-android-networking:1.0.2'
     implementation 'com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2'
     //todo fragment
     implementation("androidx.fragment:fragment-ktx:$fragmentKTX") {
@@ -148,7 +148,7 @@ afterEvaluate {
                 //from components.release
                 groupId = 'com.github.beingnavjot'
                 artifactId = 'FirebaseLoginSample'
-                version = '1.8'
+                version = '1.9'
             }
         }
     }
@@ -165,5 +165,6 @@ task createJar(type: Copy) {
     include('classes.jar')
     rename('classes.jar', 'firebaseloginsample.jar')
 }
+
 
 createJar.dependsOn(deleteJar, build)
