@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.tbuonomo:dotsindicator:4.2@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/585f5d15ad7ae997d536e90de75c6c8d/transformed/jetified-dotsindicator-4.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/585f5d15ad7ae997d536e90de75c6c8d/transformed/jetified-dotsindicator-4.2/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/585f5d15ad7ae997d536e90de75c6c8d/transformed/jetified-dotsindicator-4.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d28ad2f1e96ab7f931e4e1251e5413a3/transformed/jetified-dotsindicator-4.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d28ad2f1e96ab7f931e4e1251e5413a3/transformed/jetified-dotsindicator-4.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d28ad2f1e96ab7f931e4e1251e5413a3/transformed/jetified-dotsindicator-4.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tbuonomo/dotsindicator/4.2/a52ad04c8d5a78ba86bd327191322c215b10272f/dotsindicator-4.2-javadoc.jar!/" />

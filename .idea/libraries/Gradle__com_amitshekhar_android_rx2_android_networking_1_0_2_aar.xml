@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.amitshekhar.android:rx2-android-networking:1.0.2@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ee11f150d8d9df19ae26c8c2715dca72/transformed/jetified-rx2-android-networking-1.0.2/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ee11f150d8d9df19ae26c8c2715dca72/transformed/jetified-rx2-android-networking-1.0.2/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ee11f150d8d9df19ae26c8c2715dca72/transformed/jetified-rx2-android-networking-1.0.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d508b6d7159174d7c00f7b277dfe4fdd/transformed/jetified-rx2-android-networking-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d508b6d7159174d7c00f7b277dfe4fdd/transformed/jetified-rx2-android-networking-1.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d508b6d7159174d7c00f7b277dfe4fdd/transformed/jetified-rx2-android-networking-1.0.2/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amitshekhar.android/rx2-android-networking/1.0.2/a56f79c1112d330254799b74e5d190f5549ed647/rx2-android-networking-1.0.2-javadoc.jar!/" />

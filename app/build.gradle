@@ -34,8 +34,8 @@ android {
             jniDebuggable false}
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     kotlinOptions {
         jvmTarget = '1.8'
@@ -132,7 +132,6 @@ dependencies {
    /*  //todo Snackbar toast
     implementation 'com.github.johnpersano:supertoasts:2.0'
    */
-    implementation 'com.github.beingnavjot:FirebaseLoginSample:1.5'
 
 
 }
@@ -142,15 +141,30 @@ task androidSourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                //from components.release
+                groupId = 'com.github.beingnavjot'
+                artifactId = 'FirebaseLoginSample'
+                version = '1.6'
+            }
+        }
+    }
+}
+
+/*
 project.afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
                 groupId = 'com.github.beingnavjot'
                 artifactId = 'FirebaseLoginSample'
-                version = '1.5'
+                version = '1.6'
             }
         }
     }
 }
+*/
 

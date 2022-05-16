@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.jitpack:android-example:3.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1dc6ed78091e04f5e33af3c4ca8b2efe/transformed/jetified-android-example-3.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1dc6ed78091e04f5e33af3c4ca8b2efe/transformed/jetified-android-example-3.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1dc6ed78091e04f5e33af3c4ca8b2efe/transformed/jetified-android-example-3.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b65ab12ea00d54ff62dbec8fcfd7731f/transformed/jetified-android-example-3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b65ab12ea00d54ff62dbec8fcfd7731f/transformed/jetified-android-example-3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b65ab12ea00d54ff62dbec8fcfd7731f/transformed/jetified-android-example-3.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
