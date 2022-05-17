@@ -14,7 +14,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="420d5b7a-bef7-4b1f-98b9-f0ad3aec599d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/FirebaseLoginSample.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/FirebaseLoginSample.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -525,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652775987587</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Updated code 2.5">
+      <created>1652781095486</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1652781095486</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Static UI" />
     <MESSAGE value="Regular Commit before merge" />
     <MESSAGE value="Regular Commit before merge1" />
     <MESSAGE value="Regular Commit before merge 6may2022" />
@@ -596,7 +601,8 @@
     <MESSAGE value="Updated code 2.2" />
     <MESSAGE value="Updated code 2.3" />
     <MESSAGE value="Updated code 2.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code 2.4" />
+    <MESSAGE value="Updated code 2.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code 2.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
