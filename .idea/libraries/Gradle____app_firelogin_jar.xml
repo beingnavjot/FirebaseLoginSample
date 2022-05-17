@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/firelogin.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/firelogin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

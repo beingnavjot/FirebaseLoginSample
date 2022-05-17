@@ -11,11 +11,8 @@ plugins {
 android {
 
     compileSdk 31
-    useLibrary 'org.apache.http.legacy'
+   // useLibrary 'org.apache.http.legacy'
 
-    aaptOptions {
-        additionalParameters "--no-version-vectors"
-    }
 
 
     defaultConfig {
@@ -26,7 +23,6 @@ android {
         versionName "1.0"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
-        generatedDensities = []
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -62,7 +58,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.gms:play-services-cast-framework:21.0.1'
- //   implementation files('/Users/seraphic/Desktop/FirebaseLoginSample/app/firelogin.jar')
+    implementation files('/Users/seraphic/Desktop/FirebaseLoginSample/app/firelogin.jar')
 //    implementation files('/Users/seraphic/Desktop/FirebaseLoginSample/app/build/intermediates/app_classes/release/classes')
 
     testImplementation 'junit:junit:4.13.2'
@@ -159,7 +155,7 @@ afterEvaluate {
 
                 groupId = 'com.github.beingnavjot'
                 artifactId = 'FirebaseLoginSample'
-                version = '2.2'
+                version = '2.3'
                 from components.release_apk
 
             }
@@ -168,7 +164,6 @@ afterEvaluate {
 }
 
 
-/*
 task deleteJar(type: Delete) {
     delete 'libs/firelogin.jar'
 }
@@ -180,4 +175,4 @@ task createJar(type: Copy) {
     rename('classes.jar', 'firelogin.jar')
 }
 
-createJar.dependsOn(deleteJar, build)*/
+createJar.dependsOn(deleteJar, build)
