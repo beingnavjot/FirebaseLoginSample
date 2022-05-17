@@ -13,12 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="420d5b7a-bef7-4b1f-98b9-f0ad3aec599d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/FirebaseLoginSample.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/FirebaseLoginSample.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="420d5b7a-bef7-4b1f-98b9-f0ad3aec599d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -531,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652781095486</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Updated code 2.6">
+      <created>1652782390577</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1652782390577</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +579,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Regular Commit before merge" />
     <MESSAGE value="Regular Commit before merge1" />
     <MESSAGE value="Regular Commit before merge 6may2022" />
     <MESSAGE value="Working on Update Profile Api" />
@@ -602,7 +603,8 @@
     <MESSAGE value="Updated code 2.3" />
     <MESSAGE value="Updated code 2.4" />
     <MESSAGE value="Updated code 2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code 2.5" />
+    <MESSAGE value="Updated code 2.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code 2.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
