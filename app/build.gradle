@@ -155,7 +155,7 @@ afterEvaluate {
 
                 groupId = 'com.github.beingnavjot'
                 artifactId = 'FirebaseLoginSample'
-                version = '2.3'
+                version = '2.4'
                 from components.release_apk
 
             }
