@@ -1,6 +1,6 @@
 package com.firebaseotplogin.utils
 
-object Constants {
+ object Constants {
     const val Borhan = "Borhan"
 
     const val BASE_URL = "https://borhanbackend.herokuapp.com/"

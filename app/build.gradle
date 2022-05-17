@@ -4,13 +4,19 @@ plugins {
     id 'kotlin-kapt'
     id 'com.google.gms.google-services'
     id 'kotlin-android-extensions'
-    id 'maven-publish'
+    //  id 'maven-publish'
 
 }
 
 android {
 
     compileSdk 31
+  //    useLibrary 'org.apache.http.legacy'
+
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+
 
     defaultConfig {
         applicationId "com.firebaseotplogin"
@@ -19,6 +25,8 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+        generatedDensities = []
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -42,7 +50,6 @@ android {
         jvmTarget = '1.8'
     }
 
-
 }
 
 
@@ -54,6 +61,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.gms:play-services-cast-framework:21.0.1'
+    //implementation files('/Users/seraphic/Desktop/FirebaseLoginSample/app/firelogin.jar')
+    implementation files('/Users/seraphic/Documents/Seraphic projects/Seraphic_product_app/app/firelogin.jar')
+
+//    implementation files('/Users/seraphic/Desktop/FirebaseLoginSample/app/build/intermediates/app_classes/release/classes')
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
@@ -132,8 +143,11 @@ dependencies {
      implementation 'com.github.johnpersano:supertoasts:2.0'
     */
 
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
 
 }
+/*
 
 task androidSourcesJar(type: Jar) {
     classifier 'sources'
@@ -154,18 +168,18 @@ afterEvaluate {
         }
     }
 }
+*/
 
 
 task deleteJar(type: Delete) {
-    delete 'libs/jars/logmanagementlib.jar'
+    delete 'libs/firelogin.jar'
 }
 
 task createJar(type: Copy) {
-    from('build/intermediates/bundles/release/')
-    into('libs/jars/')
+    from('build/intermediates/packaged-classes/release/')
+    into('build/outputs/')
     include('classes.jar')
-    rename('classes.jar', 'firebaseloginsample.jar')
+    rename('classes.jar', 'firelogin.jar')
 }
-
 
 createJar.dependsOn(deleteJar, build)

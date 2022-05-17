@@ -8,7 +8,7 @@ import com.google.gson.Gson
 
 
 
-class Util(val context: Context) {
+open class Util(val context: Context) {
     var TAG = Util::class.java.name
 
     fun <T : Any> convertJsonToObject(json: String, classOnject: Class<T>): T {

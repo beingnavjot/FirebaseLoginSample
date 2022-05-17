@@ -21,7 +21,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInResult
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.*
 
-class SignInActivity :
+open class SignInActivity :
     BaseDataBindingActivity<LoginActivityDataBinding>(R.layout.login_activity_layout),
     SignInActivityViewCallBacks {
 

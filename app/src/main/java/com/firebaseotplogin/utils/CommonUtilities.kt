@@ -21,7 +21,7 @@ import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
 
-class CommonUtilities {
+open class CommonUtilities {
     companion object {
         var CATEGORY_VALUE = ""
         var INSURANCE_VALUE = ""

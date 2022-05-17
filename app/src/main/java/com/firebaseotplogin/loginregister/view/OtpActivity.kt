@@ -13,7 +13,7 @@ import com.google.firebase.auth.*
 import com.google.firebase.firestore.FirebaseFirestore
 import java.util.concurrent.TimeUnit
 
-class OtpActivity :
+open class OtpActivity :
     BaseDataBindingActivity<VerifyOtpActivityDataBinding>(R.layout.otp_activity_layout),
     VerifyOtpViewCallbacks {
 
