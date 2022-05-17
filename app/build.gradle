@@ -4,14 +4,14 @@ plugins {
     id 'kotlin-kapt'
     id 'com.google.gms.google-services'
     id 'kotlin-android-extensions'
-    //  id 'maven-publish'
+    id 'maven-publish'
 
 }
 
 android {
 
     compileSdk 31
-  //    useLibrary 'org.apache.http.legacy'
+    useLibrary 'org.apache.http.legacy'
 
     aaptOptions {
         additionalParameters "--no-version-vectors"
@@ -147,7 +147,6 @@ dependencies {
 
 
 }
-/*
 
 task androidSourcesJar(type: Jar) {
     classifier 'sources'
@@ -161,14 +160,13 @@ afterEvaluate {
 
                 groupId = 'com.github.beingnavjot'
                 artifactId = 'FirebaseLoginSample'
-                version = '2.0'
+                version = '2.1'
                 from components.release_apk
 
             }
         }
     }
 }
-*/
 
 
 task deleteJar(type: Delete) {
